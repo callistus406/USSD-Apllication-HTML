@@ -23,7 +23,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: sticky;
+    /* position: -webkit-sticky; */
 }
 
 /* .nav-container{ */
@@ -100,13 +100,13 @@ header {
 
 .background-content>p {
     font-size: 1.3rem;
-    margin-top: 25px;
+    margin-top: 35px;
     min-width: 500px;
     max-width: 700px;
 }
 
 .btn-learn-more {
-    margin-top: 50px;
+    margin-top: 70px;
     padding: 22px 70px;
     background-color: rgba(255, 255, 255, 0.4);
     border-radius: 27px;
@@ -124,7 +124,7 @@ header {
 }
 
 .news-letter {
-    margin-top: 56px;
+    margin-top: 89px;
     /* border: 2px solid blue; */
     width: 100%;
     height: 184px;
@@ -165,6 +165,26 @@ header {
     /* border: 2px solid green; */
     height: 70px;
     background: #191c1f;
+}
+
+.wrapper-container {
+    height: 1000px;
+    width: 100%;
+    border: 2px solid blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section {
+    height: 1000px;
+    width: 100%;
+    border: 2px solid blue;
+}
+
+.section2 {
+    height: 1000px;
+    width: 100%;
+    border: 2px solid rgb(22, 22, 27);
 }
 
 @media(max-width: 760px) {
